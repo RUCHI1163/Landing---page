@@ -1,0 +1,84 @@
+/* Reset some basic elements */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #000000;
+}
+
+/* Header styling */
+header {
+    background: #f8f8f8;
+    color: #000000;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+    header h1 {
+        margin-bottom: 10px;
+        font-size: 2.5rem;
+    }
+
+    header p {
+        margin-bottom: 20px;
+    }
+
+.cta-button {
+    background: #f8f8f8;
+    color: #000000;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+    .cta-button:hover {
+        background: #e65c00;
+    }
+
+/* Features Section */
+#features {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+    #features h2 {
+        margin-bottom: 20px;
+        font-size: 2rem;
+    }
+
+    #features p {
+        max-width: 600px;
+        margin: 0 auto;
+        font-size: 1.1rem;
+    }
+
+/* Call to Action Section */
+#cta {
+    background: #f8f8f8;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+    #cta h2 {
+        margin-bottom: 20px;
+        font-size: 2rem;
+    }
+
+    #cta p {
+        margin-bottom: 20px;
+        font-size: 1.1rem;
+    }
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
